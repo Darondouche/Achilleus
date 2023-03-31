@@ -1,5 +1,13 @@
 <template>
-    <div class="faq">
-      <h1>This is FAQ page</h1>
-    </div>
-  </template>
+  <div class="faq">
+    <p>This is faq page</p>
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+
+export default {
+  name: 'FaqView',
+}
+</script>

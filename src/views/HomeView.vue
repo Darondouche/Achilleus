@@ -14,7 +14,7 @@ export default {
   name: 'HomeView',
   components: {
     BannerPresa,
-    GroupCards
+    GroupCards, 
   }
 }
 </script>

@@ -1,5 +1,13 @@
 <template>
   <div class="demo">
-    <h1>This is Demo page</h1>
+    <p>This is démo page</p>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+
+export default {
+  name: 'DemoView',
+}
+</script>

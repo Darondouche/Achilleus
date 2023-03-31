@@ -1,16 +1,23 @@
 <template>
-  <div class="container m-8 p-5">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
-      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-        <h1 class="display-4 fw-bold lh-1">Lorem ipsum dolor sit amet</h1>
-        <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-        <a class="btn btn-outline-primary" href="#" role="button">Get started</a>
-      </div>
-      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img class="rounded-lg-3" src="../assets/banner.jpg" alt="image cover" width="720">
-      </div>
-    </div>
-  </div>
+	<section class="dark:bg-gray-800 dark:text-gray-100">
+		<div class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+			<div class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+				<img src="../assets/banner.jpg" alt="image banner" class="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+			</div>
+			<div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+				<h1 class="text-5xl font-bold leading-none sm:text-6xl">Ac mattis
+					<span class="dark:text-violet-400">senectus</span>erat pharetra
+				</h1>
+				<p class="mt-6 mb-8 text-lg sm:mb-12">Dictum aliquam porta in condimentum ac integer
+					<br class="hidden md:inline lg:hidden">turpis pulvinar, est scelerisque ligula sem
+				</p>
+				<div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+					<a rel="noopener noreferrer" href="#" class="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Suspendisse</a>
+					<a rel="noopener noreferrer" href="#" class="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100">Malesuada</a>
+				</div>
+			</div>
+		</div>
+	</section>
 </template>
 
 <script>
@@ -19,6 +26,3 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
