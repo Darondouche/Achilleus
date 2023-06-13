@@ -1,5 +1,5 @@
 <template>
-  <div class="demo">
+  <div class="demo dark:bg-gray-900 dark:text-gray-100">
     <p>This is démo page</p>
   </div>
 </template>

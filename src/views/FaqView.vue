@@ -1,5 +1,5 @@
 <template>
-  <div class="faq">
+  <div class="faq dark:bg-gray-900 dark:text-gray-100">
     <p>This is faq page</p>
   </div>
 </template>

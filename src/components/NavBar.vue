@@ -1,5 +1,5 @@
 <template>
-  <header class="p-5 bg-neutral-50 text-slate-700">
+  <header class="p-5 bg-neutral-50 text-slate-700 dark:bg-gray-900 dark:text-gray-100">
     <nav class="container flex justify-between h-10 mx-auto">
       <a
         rel="noopener noreferrer"
@@ -14,7 +14,7 @@
           height="40"
           class="d-inline-block"
         />
-        <p class="px-2 font-bold">
+        <p class="px-2 font-bold dark:text-gray-200">
           <router-link to="/">Achilleus Trading Bot</router-link>
         </p>
       </a>
@@ -22,7 +22,7 @@
         <li class="flex">
           <a
             rel="noopener noreferrer"
-            class="flex items-center px-4 -mb-1 hover:border-b-2"
+            class="flex items-center px-4 -mb-1 hover:border-b-2 dark:text-gray-100"
             ><router-link to="/">Présentation</router-link></a
           >
         </li>
@@ -30,7 +30,7 @@
           <a
             rel="noopener noreferrer"
             href="#"
-            class="flex items-center px-4 -mb-1 hover:border-b-2"
+            class="flex items-center px-4 -mb-1 hover:border-b-2 dark:text-gray-100"
             ><router-link to="/demo">Démo</router-link></a
           >
         </li>
@@ -38,7 +38,7 @@
           <a
             rel="noopener noreferrer"
             href="#"
-            class="flex items-center px-4 -mb-1 hover:border-b-2"
+            class="flex items-center px-4 -mb-1 hover:border-b-2 dark:text-gray-100"
             ><router-link to="/faq">F.A.Q.</router-link></a
           >
         </li>
@@ -46,7 +46,7 @@
           <a
             rel="noopener noreferrer"
             href="#"
-            class="flex items-center px-4 -mb-1 hover:border-b-2"
+            class="flex items-center px-4 -mb-1 hover:border-b-2 dark:text-gray-100"
             ><router-link to="/contact">Contact</router-link></a
           >
         </li>
@@ -54,7 +54,7 @@
           <a
             rel="noopener noreferrer"
             href="#"
-            class="flex items-center px-4 -mb-1 hover:border-b-2"
+            class="flex items-center px-4 -mb-1 dark:text-gray-100"
           >
             <img
               src="../assets/telegram.png"
@@ -98,7 +98,7 @@ export default {
         if(this.menuVisible){
           return {hidden: true};
         } else {
-          return {hidden: false};
+          return {hidden: false, "absolute flex leading-[3] bg-[lightgray] h-[64vh] flex-col mt-[70px] right-0;":true};
         }
       }
   },
